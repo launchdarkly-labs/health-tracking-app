@@ -18,11 +18,13 @@ Then open http://localhost:5173.
 
 ## Get the key
 
-1. Open your LaunchDarkly dashboard.
-2. **Account settings -> Projects -> your project -> Environments.**
-3. Copy the **Client-side ID** (not the SDK key).
-4. Paste it into `.env` as `VITE_LAUNCHDARKLY_CLIENT_ID=...`.
-5. Restart the dev server (`Ctrl-C`, then `npm run dev` again).
+1. Open your [LaunchDarkly dashboard](https://app.launchdarkly.com).
+2. Create a project if you don't have one yet: **Organization settings → [Projects](https://app.launchdarkly.com/settings/projects) → Create project** (e.g. `health-tracking-app`).
+3. Go to the project's settings and select an environment (e.g. **Test**).
+4. Click the **⋯** (three dots) icon next to the environment and select **View SDK Keys**.
+5. On the SDK keys page, find the **Client-side IDs** section and copy the **Client-side ID** — *not* the SDK key or mobile key.
+6. Paste it into `.env` as `VITE_LAUNCHDARKLY_CLIENT_ID=...`.
+7. Restart the dev server (`Ctrl-C`, then `npm run dev` again).
 
 ## Create the flag
 
