@@ -28,7 +28,7 @@ Then open http://localhost:5173.
 
 ## Create the flag
 
-1. In the same LaunchDarkly project, **Flags -> Create flag.**
+1. In the same project, **Flags -> Create flag.**
 2. Name: `Show daily checkin`. Key: **`show-daily-checkin`** (must match exactly).
 3. Type: **Boolean.** Variations: `true` / `false`. Default: `false`.
 4. Open the flag's **Settings** and enable **Client-side SDK availability
