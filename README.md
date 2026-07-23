@@ -39,6 +39,8 @@ Then open http://localhost:5173.
 7. Change the default rule to serve `true`, save, and the daily check-in
    card (with three mood buttons) should appear in the app **without a page
    reload**.
+<img width="640" height="360" alt="daily_checkin" src="https://github.com/user-attachments/assets/556411cb-eaba-4cb6-9fbd-ff19c772fbf9" />
+
 
 ## What the flag is doing
 
